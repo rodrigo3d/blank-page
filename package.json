@@ -1,0 +1,50 @@
+{
+  "name": "blank-page",
+  "title": "Página em branco",
+  "version": "1.0.0",
+  "description": "Esta é uma página em branco simples para começar a construir o seu site como um Lego!",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "push": "git add . && git commit -m \"[Atualização Automática]\" && git push -u origin master"
+  },
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "html",
+    "css",
+    "js"
+  ],
+  "homepage": "https://github.com/rodrigo3d/blank-page#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigo3d/blank-page.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rodrigo3d/blank-page/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Rodrigo Ribeiro",
+    "url": "http://rodrigo3d.com/about",
+    "email": "me@rodrigo3d.com"
+  },
+  "contributors": [
+    "Flavia Machado (flavia.machado@rodrigo3d.com)"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-header": "^2.0.5",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.3.0",
+    "gulp-uglify": "^3.0.0",
+    "run-sequence": "^2.2.1"
+  }
+}

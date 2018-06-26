@@ -1,0 +1,49 @@
+# Site settings
+title: "Blank Page"
+description: "Esta é uma página em branco simples para começar a construir o seu site como um Lego!"
+baseurl: "" # the subpath of your site, e.g. /website
+url: "" # the base hostname & protocol for your site e.g. http://rodrigo3d.com
+lolipop-theme-color: "#000000" # Android Lolipop Theme Color
+
+#source: "./"
+#destination: "./_site/teste"
+
+# User settings
+user:
+  name: Rodrigo Ribeiro
+  email: me@rodrigo3d.com
+  phone: +55 41 995511894
+  twitter: rodrigo3dapp
+  google-plus: lorem_ipsum
+  google-site-verification: dHa3VXZDpeLC49m1MUFp5I-DtVhW4hunos7CRJoF2eQ
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# exclude my node related stuff
+exclude: [
+  'LICENSE.md',
+  'README.md',
+  'yarn.lock',
+  'gulpfile.js',
+  'package.json',
+  'src',
+  'node_modules',
+  'desktop.ini',
+  'Gemfile',
+  'Gemfile.lock'
+]
+
+# include my node related stuff
+include: [
+  '_redirects'
+]
