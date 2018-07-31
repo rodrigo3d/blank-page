@@ -7,8 +7,18 @@ lolipop-theme-color: "#000000" # Android Lolipop Theme Color
 
 #source: "./"
 #destination: "./_site/teste"
+# twitter:
+#   username: rodrigo3dapp
+
+
+
+
 
 # User settings
+#author: Rodrigo Ribeiro
+#twitter: rodrigo3dapp
+
+
 user:
   name: Rodrigo Ribeiro
   email: me@rodrigo3d.com
@@ -26,7 +36,11 @@ permalink: /:title/
 compress_html:
   clippings: all
   comments: all
+  # comments: ["<!-- ", " -->"]
   endings: []
+  ignore:
+    envs: [local]
+  blanklines: true
   profile: false
 
 # exclude my node related stuff

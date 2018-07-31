@@ -1,0 +1,34 @@
+/* Add here all your css styles (customizations) */
+
+body {
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  line-height: 1.6;
+  color: #555;
+}
+
+.starter-template {
+  padding: 4.7rem 1.5rem;
+  text-align: center;
+}
+
+.starter-template h1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.btn-outline-success {
+  padding: 10px 50px 10px 50px;
+  font-size: 12px;
+  color: #72c02c;
+  border-color: #72c02c;
+  background-color: transparent;
+}
+
+.btn-outline-success:hover {
+  color: #ffffff;
+  background-color: #72c02c;
+  border-color: #72c02c;
+}
+
