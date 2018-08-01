@@ -11,7 +11,6 @@ var header        = require('gulp-header');
 var imagemin      = require('gulp-imagemin');
 var plumber       = require('gulp-plumber');
 var rename        = require('gulp-rename');
-var template      = require('gulp-template');
 var uglify        = require('gulp-uglify');
 var runSequence   = require('run-sequence');
 
