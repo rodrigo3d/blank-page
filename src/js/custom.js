@@ -1,3 +1,5 @@
+/* Add here all your javascript (customizations) */
+
 var AppCustom = function () {
 
   // var chartColors, validationRules = getValidationRules ();

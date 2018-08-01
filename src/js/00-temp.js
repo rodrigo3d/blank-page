@@ -1,1 +1,0 @@
-var AppTempTest = 'Rodrigo Ribeiro';

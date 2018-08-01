@@ -212,7 +212,6 @@ gulp.task('build', ['clean'], function () {
     'css:theme',
     'js:theme',
     'img',
-    'files:build',
     'vendor',
     'jekyll-build'
     );
