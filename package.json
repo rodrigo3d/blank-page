@@ -1,11 +1,11 @@
 {
   "name": "blank-page",
-  "title": "Página em branco",
   "version": "1.0.0",
   "description": "Esta é uma página em branco simples para começar a construir o seu site como um Lego!",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp",
+    "dev": "gulp dev",
     "build": "gulp build",
     "push": "git add . && git commit -m \"[Atualização Automática]\" && git push -u origin master"
   },

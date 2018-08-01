@@ -21,7 +21,7 @@ var pkg = require('./package.json');
 
 // Set the banner content
 var banner = ['/*!\n',
-' * <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
+' * RODRIGO3D.COM - <%= pkg.name %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
 ' * Copyright ' + (new Date()).getFullYear(), ' <%= pkg.author.name %> - <%= pkg.author.email %>\n',
 ' * Licenciado sob <%= pkg.license %> (https://github.com/rodrigo3d/<%= pkg.name %>/blob/master/LICENSE)\n',
 ' */\n',
@@ -112,16 +112,6 @@ gulp.task('img', function() {
 });
 
 
-// Gulp task to minify css files
-gulp.task('files:build', function(){
-  return gulp.src(['./LICENSE.md'])
-  .pipe(plumber())
-  .pipe(template({name: 'Sindre'}))
-  .pipe(browserSync.stream())
-  .pipe(gulp.dest('./assets/'))
-  .pipe(plumber.stop());
-});
-
 // Copy third party libraries from /node_modules into /vendor
 gulp.task('vendor', function() {
 
@@ -178,7 +168,7 @@ gulp.task('vendor', function() {
   // Pace js
   gulp.src([
     './node_modules/pace-js/*.min.*',
-    './node_modules/pace-js/**/themes/{black,red}/*{flash,center-simple}*'
+    './node_modules/pace-js/**/themes/green/*minimal*'
     // './node_modules/pace-js/**/themes/black/**'
     ])
   .pipe(gulp.dest('./assets/vendor/pace-js/'))
@@ -199,13 +189,11 @@ gulp.task('clean', function () {
 gulp.task('watch', function () {
   gulp.watch('./src/css/**/*.css', ['css:theme']);
   gulp.watch('./src/js/**/*.js', ['js:theme']);
-
   gulp.watch(['**/*.yml', '**/*.html', 'index.html', '_includes/*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
 });
 
 
 // Gulp task to minify all files
-// gulp.task('default', ['css', 'js', 'img', 'vendor', 'browser-sync', 'watch']);
 gulp.task('default', ['clean'], function () {
   runSequence(
     'css:theme',
@@ -219,7 +207,6 @@ gulp.task('default', ['clean'], function () {
 
 
 // Gulp task to build all files
-// gulp.task('build', ['css', 'js', 'img', 'vendor', 'jekyll-build']);
 gulp.task('build', ['clean'], function () {
   runSequence(
     'css:theme',
@@ -231,6 +218,8 @@ gulp.task('build', ['clean'], function () {
     );
 });
 
+
+// Gulp task to build all files
 gulp.task('dev', [
   'browser-sync',
   'watch'

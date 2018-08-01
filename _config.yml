@@ -4,48 +4,38 @@ description: "Esta é uma página em branco simples para começar a construir o 
 baseurl: "" # the subpath of your site, e.g. /website
 url: "" # the base hostname & protocol for your site e.g. http://rodrigo3d.com
 lolipop-theme-color: "#000000" # Android Lolipop Theme Color
-
 #source: "./"
 #destination: "./_site/teste"
-# twitter:
-#   username: rodrigo3dapp
-
-
-
 
 
 # User settings
-#author: Rodrigo Ribeiro
-#twitter: rodrigo3dapp
+author: Rodrigo Ribeiro
+lang: pt_BR
+twitter:
+  author: rodrigo3dapp
+  username: rodrigo3dapp
 
-
-user:
-  name: Rodrigo Ribeiro
-  email: me@rodrigo3d.com
-  phone: +55 41 995511894
-  twitter: rodrigo3dapp
-  google-plus: lorem_ipsum
-  google-site-verification: dHa3VXZDpeLC49m1MUFp5I-DtVhW4hunos7CRJoF2eQ
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
 
+
 # html minify
 compress_html:
   clippings: all
   comments: all
-  # comments: ["<!-- ", " -->"]
   endings: []
   ignore:
     envs: [local]
-  blanklines: true
+  blanklines: false
   profile: false
+
 
 # exclude my node related stuff
 exclude: [
-  'LICENSE.md',
+  'LICENSE',
   'README.md',
   'yarn.lock',
   'gulpfile.js',
@@ -56,6 +46,7 @@ exclude: [
   'Gemfile',
   'Gemfile.lock'
 ]
+
 
 # include my node related stuff
 include: [

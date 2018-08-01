@@ -21,14 +21,14 @@ body {
 .btn-outline-success {
   padding: 10px 50px 10px 50px;
   font-size: 12px;
-  color: #72c02c;
-  border-color: #72c02c;
+  color: #22df80;
+  border-color: #22df80;
   background-color: transparent;
 }
 
 .btn-outline-success:hover {
   color: #ffffff;
-  background-color: #72c02c;
-  border-color: #72c02c;
+  background-color: #22df80;
+  border-color: #22df80;
 }
 
