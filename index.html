@@ -12,7 +12,9 @@ layout: default
       Esta é uma página em branco simples para começar a construir o seu site como um Lego!
     </p>
 
+    {% if jekyll.environment == "production" %}
     <a href="http://rodrigo3d.com" class="btn btn-outline-success">RODRIGO3D.COM</a>
+    {% endif %}
 
   </div>
 

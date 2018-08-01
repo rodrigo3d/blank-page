@@ -2,14 +2,8 @@
 
 var AppCustom = function () {
 
-  // var chartColors, validationRules = getValidationRules ();
-
-  // Ocean Breeze
-  chartColors = ['#94BA65', '#2B4E72', '#2790B0', '#777','#555','#999','#bbb','#ccc','#eee'];
-
   return {
-    init: init,
-    chartColors: chartColors,
+    init: init
   };
 
 
