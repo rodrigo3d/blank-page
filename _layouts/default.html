@@ -2,16 +2,16 @@
 layout: compress
 ---
 
-{% if jekyll.environment == "production" %}
-jekyll.environment == "production"
-{% endif %}
-
 <!doctype html>
 <html lang="pt-br">
 
 {% include head.html %}
 
 <body>
+
+  {% if jekyll.environment == "production" %}
+  jekyll.environment == "production"
+  {% endif %}
 
   {{ content }}
 
