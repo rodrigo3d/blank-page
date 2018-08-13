@@ -1,2 +1,2 @@
 # Redirect default Netlify subdomain to primary domain
-https://blank-page-rodrigo3d.netlify.com/* https://blank-page.rodrigo3d.com/:splat 301!
+https://go-rodrigo3d.netlify.com/* https://go.rodrigo3d.com/:splat 301!

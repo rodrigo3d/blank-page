@@ -18,6 +18,9 @@ body {
   font-size: 60px;
   font-weight: 400;
 }
+.starter-template p.lead span {
+  color: #22df80;
+}
 
 .btn-outline-success {
   padding: 10px 50px 10px 50px;
@@ -31,4 +34,18 @@ body {
   color: #ffffff;
   background-color: #22df80;
   border-color: #22df80;
+}
+
+
+.progress {
+  height: 25px;
+}
+.url {
+  color: red;
+}
+
+#progress_bar {
+  background-color: #22df80;
+  width: 0px;
+  height: 25px;
 }
