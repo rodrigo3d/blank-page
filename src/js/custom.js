@@ -1,6 +1,6 @@
 /* Add here all your javascript (customizations) */
 
-var App = function () {
+var AppCustom = function () {
 
   return {
     init: init
