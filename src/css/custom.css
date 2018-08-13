@@ -1,6 +1,7 @@
 /* Add here all your css styles (customizations) */
 
 body {
+  padding-top: 5rem;
   font-weight: 400;
   font-size: 1rem;
   font-family: "Open Sans",Helvetica,Arial,sans-serif;
@@ -31,4 +32,3 @@ body {
   background-color: #22df80;
   border-color: #22df80;
 }
-

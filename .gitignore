@@ -7,10 +7,8 @@
 /coverage
 
 # production
-/build
 /assets
 /_site
-/_drafts
 
 # misc
 .DS_Store

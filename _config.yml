@@ -4,16 +4,11 @@ description: "Esta é uma página em branco simples para começar a construir o 
 baseurl: "" # the subpath of your site, e.g. /website
 url: "" # the base hostname & protocol for your site e.g. http://rodrigo3d.com
 lolipop-theme-color: "#000000" # Android Lolipop Theme Color
-#source: "./"
-#destination: "./_site/teste"
 
 
 # User settings
-author: Rodrigo Ribeiro
+author: Rodrigo Ribeiro - me@rodrigo3d.com
 lang: pt_BR
-twitter:
-  author: rodrigo3dapp
-  username: rodrigo3dapp
 
 
 # Build settings
