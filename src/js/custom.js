@@ -9,10 +9,8 @@ var AppCustom = function () {
 
   /* -------------------------------------------------------------------------------- */
   function init() {
-
     console.log("AppCustom.init - OK");
     ___pace();
-
   }
   /* -------------------------------------------------------------------------------- */
 
@@ -20,23 +18,22 @@ var AppCustom = function () {
   /* -------------------------------------------------------------------------------- */
   function ___pace() {
     Pace.on('start', function () {
-      // console.log('start');
+      console.log('PaceJS - start');
     });
 
     Pace.on('done', function () {
-      // console.log('done');
+      console.log('PaceJS - done');
     });
 
     Pace.on('hide', function () {
-      $('[data-toggle="tooltip"]').tooltip();
-      // console.log('hide');
+      console.log('PaceJS - hide');
     });
   }
   /* -------------------------------------------------------------------------------- */
 
 
   /* -------------------------------------------------------------------------------- */
-  function ___sleep(milliseconds) {
+  function __sleep(milliseconds) {
     var start = new Date().getTime();
     for (var i = 0; i < 1e7; i++) {
       if ((new Date().getTime() - start) > milliseconds) {
