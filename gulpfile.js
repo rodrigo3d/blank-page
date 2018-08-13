@@ -187,9 +187,3 @@ gulp.task('build', ['clean'], function () {
     'jekyll-build'
   );
 });
-
-// Gulp task to build all files
-gulp.task('dev', [
-  'browser-sync',
-  'watch'
-]);

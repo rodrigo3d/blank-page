@@ -1,9 +1,9 @@
 # Site settings
-title: "Blank Page"
-description: "Esta é uma página em branco simples para começar a construir o seu site como um Lego!"
+title: "GO!"
+description: "Página de redirecionamento."
 baseurl: "" # the subpath of your site, e.g. /website
 url: "" # the base hostname & protocol for your site e.g. http://rodrigo3d.com
-lolipop-theme-color: "#000000" # Android Lolipop Theme Color
+lolipop-theme-color: "#ffffff" # Android Lolipop Theme Color
 
 
 # User settings
@@ -24,7 +24,7 @@ compress_html:
   endings: []
   ignore:
     envs: [local]
-  blanklines: false
+  blanklines: true
   profile: false
 
 

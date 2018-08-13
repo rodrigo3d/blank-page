@@ -1,11 +1,10 @@
 {
-  "name": "blank-page",
+  "name": "GO!",
   "version": "1.0.0",
-  "description": "Esta é uma página em branco simples para começar a construir o seu site como um Lego!",
+  "description": "Página de redirecionamento.",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp",
-    "dev": "gulp dev",
     "build": "gulp build",
     "push": "git add . && git commit -m \"[Atualização Automática]\" && git push -u origin master"
   },
@@ -16,13 +15,13 @@
     "css",
     "js"
   ],
-  "homepage": "https://github.com/rodrigo3d/blank-page#readme",
+  "homepage": "https://github.com/rodrigo3d/go#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rodrigo3d/blank-page.git"
+    "url": "git+https://github.com/rodrigo3d/go.git"
   },
   "bugs": {
-    "url": "https://github.com/rodrigo3d/blank-page/issues"
+    "url": "https://github.com/rodrigo3d/go/issues"
   },
   "license": "MIT",
   "author": {
