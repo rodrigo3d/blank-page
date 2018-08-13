@@ -77,7 +77,7 @@ gulp.task('css:theme', function () {
 gulp.task('js:theme', function () {
   return gulp.src(['./src/js/**/*.js', '!./src/js/*.min.js', '!./src/js/analytics.js'])
     .pipe(plumber())
-    // .pipe(concat('main.js'))
+    // .pipe(concat('custom.js'))
     .pipe(uglify())
     .pipe(rename({ suffix: '.min' }))
     .pipe(header(banner, { pkg: pkg }))
