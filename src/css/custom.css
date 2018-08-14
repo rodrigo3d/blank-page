@@ -35,17 +35,3 @@ body {
   background-color: #22df80;
   border-color: #22df80;
 }
-
-
-.progress {
-  height: 25px;
-}
-.url {
-  color: red;
-}
-
-#progress_bar {
-  background-color: #22df80;
-  width: 0px;
-  height: 25px;
-}
