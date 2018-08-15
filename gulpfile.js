@@ -172,8 +172,8 @@ gulp.task('default', ['clean'], function () {
     'js:theme',
     'img',
     'vendor',
-    'browser-sync',
-    'watch'
+    'watch',
+    'browser-sync'
   );
 });
 

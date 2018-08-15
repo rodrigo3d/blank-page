@@ -24,7 +24,7 @@ compress_html:
   endings: []
   ignore:
     envs: [local]
-  blanklines: true
+  blanklines: false
   profile: false
 
 
